@@ -1,0 +1,6 @@
+void updateVar(int *a)
+{
+    *a+=10;
+   
+      // write your code here
+}
