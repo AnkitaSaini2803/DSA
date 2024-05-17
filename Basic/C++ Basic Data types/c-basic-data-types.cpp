@@ -21,7 +21,7 @@ class Solution {
         {
             if(s[i]=='.')
             {
-                if(size-1-i>=6)
+                if(size-i-1>=6)
                 return sizeof(double);
                 else return sizeof(float);
             }
@@ -29,6 +29,7 @@ class Solution {
         return sizeof(int);
     }
 };
+
 
 
 //{ Driver Code Starts.
